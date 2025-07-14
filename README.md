@@ -34,13 +34,13 @@ An intelligent personal finance Android application built with **Kotlin + Jetpac
 | ---------------- | ---------------------------------------------------------------------- |
 | Language         | Kotlin                                                                 |
 | UI               | Jetpack Compose                                                        |
-| Architecture     | MVVM + Clean Architecture                                              |
+| Architecture     | MVI + Clean Architecture                                              |
 | ML/OCR           | [ML Kit](https://developers.google.com/ml-kit/vision/text-recognition) |
-| AI/NLP           | [Hugging Face Inference API](https://huggingface.co/inference-api)     |
+| Dependency Injection | Koin                                                               |
 | SMS Parsing      | Android SMS Content Provider                                           |
 | Database         | Room Persistence Library                                               |
 | Background Tasks | WorkManager                                                            |
-| Network          | Retrofit / OkHttp                                                      |
+| Network          | Ktor                                                                   |
 | Permissions      | AndroidX Activity/Permissions APIs                                     |
 
 ---
